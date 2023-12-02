@@ -4,13 +4,34 @@ import './index.css';
 
 import App from './App.jsx';
 import Error from './pages/Error';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     errorElement: <Error />,
-    children: [],
+    children: [
+      {
+        index: true,
+        element: <About />,
+      },
+      {
+        path: '/Portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: '/Contact',
+        element: <Contact />,
+      },
+      {
+        path: 'Resume',
+        element: <Resume />,
+      },
+    ],
   },
 ]);
 
