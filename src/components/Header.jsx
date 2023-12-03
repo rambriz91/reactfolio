@@ -1,6 +1,7 @@
 import Navigation from './Navigation';
 
 function Header() {
+  //renders Navigation tabs within the header component.
   return (
     <header>
       <img
