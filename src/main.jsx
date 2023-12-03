@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import './index.css';
 
 import App from './App.jsx';
 import Error from './pages/Error';
@@ -28,7 +27,7 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: 'Resume',
+        path: '/Resume',
         element: <Resume />,
       },
     ],

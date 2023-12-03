@@ -1,12 +1,13 @@
 import { Outlet } from 'react-router-dom';
-import Nav from './components/Navigation';
-import './App.css';
+import Header from './components/Header';
+import { useLocation } from 'react-router-dom';
 
 function App() {
+  const currentPage = useLocation().pathname;
   return (
     <>
-      <Nav />
-      <main className='mx-2'>
+      <Header />
+      <main className={currentPage === '/Portfolio' ? 'beach' : ''}>
         <Outlet />
       </main>
     </>
