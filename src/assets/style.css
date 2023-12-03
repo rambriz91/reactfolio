@@ -108,7 +108,7 @@ main {
 }
 
 main section {
-  margin: 1% 5%;
+  margin: 2% 5%;
   line-height: 2rem;
 }
 
@@ -123,6 +123,20 @@ main section ul {
   list-style-position: unset;
 }
 
+form {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 500px;
+  height: 300px;
+}
+
+footer {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+}
 /* id selectors  */
 
 /* class selector  */
@@ -133,14 +147,113 @@ main section ul {
 
 .beach {
   background-image: url(./images/beach_ocean_aerial_view_149650_2560x1440.jpg);
-  color: rgb(23, 90, 207);
+  color: rgb(29 190 202);
 }
 
+.beach section {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.beach section div {
+  margin: 3%;
+  width: 40%;
+}
+
+.project-img {
+  max-width: 600px;
+  max-height: 450px;
+}
+
+.octo-cat {
+  max-width: 50px;
+}
+
+.logo {
+  max-width: 50px;
+  margin: 5px;
+}
+
+.contact-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+}
+
+.contact-list li {
+  display: inline;
+}
 /* media query  */
 
-@media screen and (max-width: 1475px) {
+@media screen and (max-width: 1180px) {
+  .beach section {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .beach section div {
+    margin: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .project-img {
+    max-width: 300px;
+  }
+  nav ul li a {
+    color: var(--font-color);
+    font-size: 15px;
+    padding: 7px;
+    font-family: var(--font-fam);
+    text-decoration: none;
+  }
+
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+  header img {
+    width: 100%;
+  }
+
   figure img {
-    height: 350px;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 1%;
+  }
+
+  figure p {
     width: 350px;
+    display: flex;
+    margin: 4%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(32, 30, 30, 0.68);
+    border-radius: 5%;
+  }
+
+  textarea {
+    width: 300px;
+    height: 150px;
+  }
+
+  .contact-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
   }
 }
