@@ -32,3 +32,5 @@ const data = [
     repo: 'https://github.com/rambriz91/tunez',
   },
 ];
+
+export default data;
