@@ -4,7 +4,7 @@ export default function About() {
       <figure>
         <h1>About Me</h1>
         <div>
-          <img src='src/assets/images/headshot.jpg' alt="Dev's Headshot" />
+          <img src='/images/headshot.jpg' alt="Dev's Headshot" />
           <p>
             A San Diego based Full-stack web developer who is proficient in
             html, css, javascript, React, SQL, and NoSQL Databases.If am not
