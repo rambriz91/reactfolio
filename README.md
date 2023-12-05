@@ -17,8 +17,8 @@ This challenge required me to build a dev portfolio using react components. So t
 
 ## Links
 
-GitHub Repo Page: https://github.com/rambriz91/buzz-network
-Demo Link: https://drive.google.com/file/d/1jjqk-A2-7FROifDP0lorhVIWECiK8faE/view
+GitHub Repo Page: https://github.com/rambriz91/reactfolio
+Deployed Page: https://kaleidoscopic-llama-c26d61.netlify.app/
 
 ## Credits
 
