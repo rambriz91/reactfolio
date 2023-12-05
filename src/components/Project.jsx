@@ -16,7 +16,7 @@ export default function Project(props) {
             </a>
             <a href={project.repo}>
               <img
-                src='src/assets/images/github-mark-white.png'
+                src='/images/github-mark-white.png'
                 alt='github octocat'
                 className='octo-cat'
               />

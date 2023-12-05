@@ -25,7 +25,7 @@ export default function Contact() {
           <li>
             <a href='https://github.com/rambriz91'>
               <img
-                src='src/assets/images/github-mark-white.png'
+                src='/images/github-mark-white.png'
                 alt='Octocat logo'
                 className='logo'
               />
@@ -34,7 +34,7 @@ export default function Contact() {
           <li>
             <a href='https://www.instagram.com/sans_armour/'>
               <img
-                src='src/assets/images/Instagram_Glyph_White.png'
+                src='/images/Instagram_Glyph_White.png'
                 alt='instagram logo'
                 className='logo'
               />
@@ -43,7 +43,7 @@ export default function Contact() {
           <li>
             <a href='https://www.linkedin.com/in/robert-ambriz-59281493/'>
               <img
-                src='src/assets/images/icons8-linkedin-500.png'
+                src='/images/icons8-linkedin-500.png'
                 alt='LinkedIn Logo'
                 className='logo'
               />
