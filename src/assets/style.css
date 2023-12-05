@@ -134,9 +134,8 @@ textarea {
 
 footer {
   display: flex;
-  padding: 25px;
   justify-content: center;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 /* id selectors  */
 
