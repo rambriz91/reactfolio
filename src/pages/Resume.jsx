@@ -6,56 +6,39 @@ export default function Resume() {
         <h2>Professional Summary</h2>
         <p>
           An aspiring web developer, and recent graduate of UCR Extension Coding
-          Bootcamp, with a comprehensive understanding of html, css, Javascript,
-          React, MERN, SQL, and NoSQL databases. Highly skilled and experienced
-          in Dispute Resolution, D.E.I, and Investigation Practices, possessing
-          a deep understanding of conflict resolution techniques and strategies,
-          as well as a strong ability to communicate and collaborate
-          effectively. Adept at developing and implementing policies and
-          procedures to ensure compliance while fostering an equitable culture
-          of respect and inclusivity.
+          Bootcamp, with a comprehensive understanding of HTML, CSS, Javascript,
+          React, MERN, SQL, Express, API, and NoSQL databases. 
         </p>
       </section>
       <section>
         <h2>Experience</h2>
         <div>
           <h3>
-            University of Arizona Global Campus, Arizona - Student Dispute
-            Resolution Specialist II
+            Full Stack Web Development Bootcamp - UC Riverside
           </h3>
           <ul>
             <li>
-              Leveraged technologies, such as Zoom, Microsoft Office Suite, and
-              Educational Databases from a remote workspace to resolve disputes
-              for a diverse student body from various cultural, ethnic,
-              religious, political, and socioeconomic backgrounds by conducting
-              unbiased investigations of their concerns, including
-              discrimination and equity issues. Closed over 1000 complaints with
-              99% of cases closed within 20 business days.
+              Mastered the fundamentals of HTML, CSS, Javascript, React, MERN Stack, 
+              SQL Databases, MongoDB, Express, and API.
             </li>
             <li>
-              Analyzed student records, university policies, and procedures to
-              identify the root causes of disputes while maintaining sensitivity
-              to student confidentiality and civil rights.
+              Lead a study group of seven to be the most successful students in the 
+              Full Stack program.
             </li>
             <li>
-              Coordinated and communicated with multiple departments,
-              understanding their roles, and remediated issues when necessary.
+              Coordinated with classmates inside and outside my study group and 
+              integrated differing workstyles by establishing pull request rules.
             </li>
             <li>
-              Presented case findings to a Formal Grievance Deliberation
-              Committee consisting of Directors and C-suite stakeholders,
-              providing objective recommendations to support decision-making.
+              Lead three collaborative group projects required for the Full Stack Program certificate
+              and ensured that our code met industry standards and convention.
             </li>
             <li>
-              Engaged in Diversity, Equity, and Inclusion initiatives to better
-              align university staff and faculty with the needs of a diverse
-              student body, including conducting interviews with students,
-              faculty, and staff to better understand their concerns.
+              Participated in stand-up meetings where I presented my progress, to-do's, and blockers.
             </li>
             <li>
-              Prepared and presented evidence-based responses to students,
-              communicating outcomes and resolutions effectively.
+              Effectively communicated project requirements, utilized wire-framing, and prevented scope
+              creep in our projects while maintaining high morale.
             </li>
           </ul>
         </div>

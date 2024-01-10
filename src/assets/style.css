@@ -5,7 +5,7 @@
   --dark: rgb(32, 30, 30);
   --nav: rgba(32, 30, 30, 0.915);
   --font-fam: Arial, Helvetica, sans-serif;
-  --impact: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  --impact: sans-serif;
 }
 
 /* Element selectors  */
@@ -39,7 +39,7 @@ header {
 header img {
   display: block;
   margin: 4% 0 2% 3%;
-  width: 50%;
+  width: 25%;
 }
 
 nav {
@@ -108,7 +108,7 @@ main {
 }
 
 main section {
-  margin: 2% 5%;
+  margin: 1% 5%;
   line-height: 2rem;
 }
 

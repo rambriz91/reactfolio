@@ -4,7 +4,7 @@ function Header() {
   //renders Navigation tabs within the header component.
   return (
     <header>
-      <img src='/images/name-text.png' alt='Stylized Text Rob Ambriz' />
+      <img src='/images/name-text2.png' alt='Stylized Text Rob Ambriz' />
       <Navigation />
     </header>
   );
