@@ -7,7 +7,7 @@ export default function About() {
           <img src='/images/headshot.jpg' alt="Dev's Headshot" />
           <p>
             A San Diego based Full-stack web developer who is proficient in
-            html, css, javascript, React, SQL, and NoSQL Databases.If am not
+            HTML, CSS, Javascript, Express, React, SQL, and NoSQL Databases.If am not
             working on a coding project you can find me enjoying a hike or the
             city sights.
           </p>
